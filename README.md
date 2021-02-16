@@ -16,22 +16,22 @@ WHEN I view the source code // THEN I find semantic HTML elements
 
 
 WHEN I view the structure of the HTML elements // THEN I find that the elements follow a logical structure independent of styling and positioning
+---> YES
 
 
+WHEN I view the image element // THEN I find accessible alt attributes
 
-WHEN I view the image elements
-THEN I find accessible alt attributes
-
-Title attribute used to define figure tag (class=hero). 
-
-
-WHEN I view the heading attributes
-THEN they fall in sequential order
+---> Title attribute used to define figure tag (lead image defined in css with class="hero"). 
+---> alt attibute and alt-text descriptions added to all featured images. 
 
 
-WHEN I view the title element
-THEN I find a concise, descriptive title
-```
+WHEN I view the heading attributes // THEN they fall in sequential order
+
+--->  h2 Heading in footer updated to h4 for clarity
+
+
+WHEN I view the title element // THEN I find a concise, descriptive title
+---> Website title updated
 
 
 

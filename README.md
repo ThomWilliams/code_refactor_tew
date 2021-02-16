@@ -10,11 +10,13 @@ so that the website is SEO optimised.
 # Acceptance Criteria + Steps Made to Guarantee Each
 
 GIVEN a webpage meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
+WHEN I view the source code // THEN I find semantic HTML elements
 
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
+---> Semantic HTML elements defined incl: header, footer, section, article tags. 
+
+
+WHEN I view the structure of the HTML elements // THEN I find that the elements follow a logical structure independent of styling and positioning
+
 
 
 WHEN I view the image elements
@@ -31,6 +33,8 @@ THEN I find a concise, descriptive title
 
 
 
+CSS updates...
+Div class updated to Nav
 
 
 
@@ -46,6 +50,9 @@ List your collaborators, if any, with links to their GitHub profiles.
 If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
 
 If you followed tutorials, include links to those here as well.
+
+https://www.codecademy.com/learn/learn-html/modules/learn-semantic-html/cheatsheet
+
 
 
 ## License

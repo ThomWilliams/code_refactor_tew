@@ -22,6 +22,8 @@ WHEN I view the structure of the HTML elements // THEN I find that the elements 
 WHEN I view the image elements
 THEN I find accessible alt attributes
 
+Title attribute used to define figure tag (class=hero). 
+
 
 WHEN I view the heading attributes
 THEN they fall in sequential order

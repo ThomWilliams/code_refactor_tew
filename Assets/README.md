@@ -1,122 +1,92 @@
-# 01 HTML CSS Git: Code Refactor
+# README for homework_1_code_refactor_TEW
 
-## Your Task
+CODING BOOTCAMP: HOMEWORK 1: CODE REFACTOR
 
-**Note**: Be sure to review the [Homework Guide](../04-Important/Homework-Guide/README.md) and the [Good README Guide](../04-Important/Good-README-Guide/README.md) before you start working on this assignment!
+Coding refactor excerise to create a codebase that follows accessibility standards so that the website is SEO optimised. HTML has been made more accessible and CSS moderately reconfigured.
 
-This week is an odd-numbered week, so your homework is an on-the-job ticket, which means you'll begin with starter code that you need to modify. This week's homework involves a very important aspect of web development: **accessibility**. 
 
-One of the most common tasks for front-end and junior developers is to take existing code and refactor it (recall that to refactor code is to improve it without changing what it does) to meet a certain set of standards or implement a new technology. In this homework, a marketing agency has hired you to refactor an existing site to make it more accessible. 
+# Project Acceptance Criteria + The Steps Made to Meet Each
 
-Web accessibility is an increasingly important consideration for businesses. It ensures that people with disabilities can access a website using assistive technologies such as video captions, screen readers, and braille keyboards. Making a website accessible is also good for business for many reasons, one of them being that accessible sites are better positioned in search engines like Google. It also helps companies avoid litigation that can occur when people with disabilities cannot access their website.
-
-Even though accessibility is a broad topic that can include complex requirements, your tech lead has given you a small list of specific criteria to satisfy the project. These criteria are documented below in the Acceptance Criteria.
-
-**Important**: An important rule to follow when working with someone else's code is the **Scout Rule**, which recommends that you always leave the code a little cleaner than when you found it.
-
-To impress clients, you should always go the extra mile and improve the codebase for long-term sustainability. For example, make sure that all links are functioning correctly. Also, rework the CSS to make it more efficient by consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
-
-Are you ready to jump in? Here are this week's homework requirements:
-
-## User Story
-
-```
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our own site is optimized for search engines
-```
-
-## Acceptance Criteria
-
-```
 GIVEN a webpage meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
-```
 
-## Mock-Up
+---> The website's accesibility was improved using good HTML semantic practice, as cross-referenced with the sources referred to below. A selection of additonal amendments were also made as noted below. 
 
-**Note**: This layout is designed for "desktop", so you may notice that some of the elements don't look like the Mock-Up when viewed at a resolution smaller than 768px. In future lessons, you will learn how to make elements "responsive" so that your web application is optimized for any screen size.
 
-The following image shows the web application's appearance and functionality:
+WHEN I view the source code // THEN I find semantic HTML elements
 
-![code refactor demo](./Assets/01-html-css-git-homework-demo.png)
+---> Semantic HTML elements defined incl: header, footer, section, article tags. 
+---> <Span> tag in h1 tag replaced (+ CSS amended accordingly)
 
-## Getting Started
 
-Follow these instructions to create your project and deploy it to GitHub Pages:
+WHEN I view the structure of the HTML elements // THEN I find that the elements follow a logical structure independent of styling and positioning
 
-1. Create a new repository on your GitHub account and clone it to your computer.
+---> Minor modification of HTML to ensure it follows logical structure.
 
-2. When you're ready to deploy, use `git add`, `git commit`, and `git push` commands to save and push your code to your GitHub repository.
 
-3. Navigate in your browser to your GitHub repository and then navigate into your repository's `Settings` tab on the right side of the repository's page.
+WHEN I view the image element // THEN I find accessible alt attributes
 
-4. From the settings page, scroll down to the GitHub Pages section and then, in the section labeled `Source`, select that you would like to use the `main` branch as your source.
+---> alt attibute and alt-text descriptions added to all featured images. 
+---> Title attribute used to define figure tag (lead image inserted via css as class="hero"). 
 
-5. Navigate to `<your-github-username>.github.io/<your-repo-name>` and you will find that your new web page has gone live! (For example, if your GitHub username is `lernantino` and the project is `css-demo-site`, your URL would be `lernantino.github.io/css-demo-site`)
 
-You can also refer to this [YouTube video](https://youtu.be/P4Mu1t5rIXg) to walk through the steps needed to deploy.
+WHEN I view the heading attributes // THEN they fall in sequential order
+---> h1, h2, h3 put in logical sequential order
+--->  h2 Heading previously in footer given new css class of "made" 
 
-**Important**: It may take a few moments for GitHub pages to display your site correctly. If your project doesn't deploy or show up, make sure that all file paths in your application are relative and using the right casing. GitHub is case-sensitive, so there is a difference between a capitalized and uncapitalized letter to them.
+WHEN I view the title element // THEN I find a concise, descriptive title
+---> Website title updated to "Horiseon: Offical Website"
 
-Make sure you add, commit, and push your work to see the most up-to-date version of your app!
 
-## Grading Requirements
+ADDITIONAL AMENDMENTS
 
-This homework is graded based on the following criteria: 
+----> Nav Bar: Broken link to "Search Engine Optimisation" section fixed.
+----> CSS consolidated where posisble and reorganised into logical structure corresponding to HTML order. 
+----> CSS file commented with appropriate sections / fucntions.
+----> Unnecessary header class removed and updated in CSS file.
+----> Div class in style.css file updated to new class of "Nav"
+----> Select footer text given new class of "made" (instead of h2) to accomodate desired larger font size
 
-### Technical Acceptance Criteria: 40%
 
-* Satisfies all of the above acceptance criteria plus the following code improvements:
+# Deployed Link Here
 
-  * Application's links all function correctly.
+Here is a link to the deployed website on GitHub Pages: 
 
-  * Application's CSS selectors and properties are consolidated and organized to follow semantic structure.
+# Screenshot
 
-  * Application's CSS file is properly commented.
+Available in assets Folder:
+<link rel="screenshot" href="../Assets/homework-1-code-refractor-screenshot-TEW.png">
 
-### Deployment: 32%
 
-* Application deployed at live URL using GitHub Pages.
+======
+## Credits
 
-* Application loads with no errors.
+These are the web articles I referenced during this Code Refactor excercise. 
 
-* Application GitHub URL submitted.
+https://www.codecademy.com/learn/learn-html/modules/learn-semantic-html/cheatsheet
+https://www.w3schools.com/tags/tag_hn.asp
+https://www.w3schools.com/html/html_accessibility.asp
 
-* GitHub repository that contains application code.
 
-### Application Quality: 15%
+## License
 
-* Application resembles (at least 90%) screenshots provided in the homework instructions.
+MIT License
 
-### Repository Quality: 13%
+Copyright (c) [2021] [Thomas Edward Williams]
 
-* Repository has a unique name.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-* Repository follows best practices for file structure and naming conventions.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality README file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-- - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

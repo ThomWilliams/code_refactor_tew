@@ -20,14 +20,12 @@ WHEN I view the structure of the HTML elements // THEN I find that the elements 
 
 
 WHEN I view the image element // THEN I find accessible alt attributes
-
 ---> alt attibute and alt-text descriptions added to all featured images. 
 ---> Title attribute used to define figure tag (lead image defined in css with class="hero"). 
 
+
 WHEN I view the heading attributes // THEN they fall in sequential order
-
---->  h2 Heading in footer updated to h4 to differentiate
-
+--->  h2 Heading in footer given new class of "made" 
 
 WHEN I view the title element // THEN I find a concise, descriptive title
 ---> Website title updated to "Horiseon: Offical Website"
@@ -37,9 +35,9 @@ ADDITIONAL AMENDMENTS
 
 ----> Nav Bar: Broken link to "Search Engine Optimisation" article fixed.
 ----> Unnecessary header class removed and updated in CSS file.
-
-CSS updates...
-Div class updated to Nav
+----> CSS reorganised into more logical structure that corresponds to HTML order. 
+----> Div class in CSS updated to new class of "Nav"
+----> h2 in footer given new class of "made"
 
 
 

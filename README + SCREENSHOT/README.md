@@ -47,6 +47,13 @@ ADDITIONAL AMENDMENTS
 ----> Select footer text given new class of "made" (instead of h2) to accomodate desired larger font size
 
 
+FURTHER RECOMMENDATIONS FROM WAVE
+
+A number of recommedations were flagged by the WAVE accessibility evaluation. Amendments as follows were made to accomodate: 
+---> Alt text simplified e.g "Image of" removed
+---> Background colour of Aside updated to improve colour contrast.
+
+
 # Deployed Link Here
 
 Here is a link to the deployed website on GitHub Pages: 

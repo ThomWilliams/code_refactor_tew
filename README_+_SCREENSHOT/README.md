@@ -39,7 +39,6 @@ WHEN I view the title element // THEN I find a concise, descriptive title
 
 ADDITIONAL AMENDMENTS
 
------> Colour contrast of "SEO" in Horiseon optimised
 ----> Nav Bar: Broken link to "Search Engine Optimisation" section fixed.
 ----> CSS consolidated where posisble and reorganised into logical structure corresponding to HTML order. 
 ----> CSS file commented with appropriate sections / fucntions.
@@ -63,7 +62,8 @@ Here is a link to the deployed website on GitHub Pages:
 # Screenshot
 
 Available in assets Folder:
-<link rel="screenshot" href="README_+_SCREENSHOT/homework-1-code-refractor-screenshot-TEW.png">
+<link rel="screenshot" href="/homework-1-code-refractor-screenshot-TEW.png">
+
 
 
 ======

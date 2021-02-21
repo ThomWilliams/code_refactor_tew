@@ -57,7 +57,7 @@ A number of recommedations were flagged by the WAVE accessibility evaluation. Am
 # Deployed Link Here
 
 Here is a link to the deployed website on GitHub Pages: 
-<link href="https://thomwilliams.github.io/homework_1_code_refactor/">
+<link href="https://thomwilliams.github.io/code_refactor_tew/">
 
 # Screenshot
 

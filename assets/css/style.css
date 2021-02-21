@@ -27,7 +27,7 @@ h1 {
 }
 
 .seo {
-    color: #d9dcd6;
+    color: #a8afa1;
 }
 
 /* Define navigation bar style */
@@ -199,6 +199,8 @@ h3 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
+
+/* Define footer "heading" */
 
 .made {
     font-size: 20px;

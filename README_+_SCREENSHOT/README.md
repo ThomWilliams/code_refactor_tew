@@ -1,8 +1,8 @@
-# README for homework_1_code_refactor_TEW
+# README for homework_1_code_refactor
 
 CODING BOOTCAMP: HOMEWORK 1: CODE REFACTOR
 
-Coding refactor excerise to create a codebase that follows accessibility standards so that the website is SEO optimised. HTML has been made more accessible and CSS moderately reconfigured.
+Coding refactor excerise to create a codebase that follows accessibility standards so that the website is SEO optimised. HTML has been made more accessible and CSS moderately reconfigured + commented.
 
 
 # Project Acceptance Criteria + The Steps Made to Meet Each
@@ -39,6 +39,7 @@ WHEN I view the title element // THEN I find a concise, descriptive title
 
 ADDITIONAL AMENDMENTS
 
+-----> Colour contrast of "SEO" in Horiseon optimised
 ----> Nav Bar: Broken link to "Search Engine Optimisation" section fixed.
 ----> CSS consolidated where posisble and reorganised into logical structure corresponding to HTML order. 
 ----> CSS file commented with appropriate sections / fucntions.
@@ -47,9 +48,9 @@ ADDITIONAL AMENDMENTS
 ----> Select footer text given new class of "made" (instead of h2) to accomodate desired larger font size
 
 
-FURTHER RECOMMENDATIONS FROM WAVE
+FURTHER RECOMMENDATIONS FROM WAVE EVALUATION
 
-A number of recommedations were flagged by the WAVE accessibility evaluation. Amendments as follows were made to accomodate: 
+A number of recommedations were flagged by the WAVE accessibility evaluation. Amendments as follows were made to accomodate the results as follows: 
 ---> Alt text simplified e.g "Image of" removed
 ---> Background colour of Aside updated to improve colour contrast.
 
@@ -62,17 +63,19 @@ Here is a link to the deployed website on GitHub Pages:
 # Screenshot
 
 Available in assets Folder:
-<link rel="screenshot" href="../Assets/homework-1-code-refractor-screenshot-TEW.png">
+<link rel="screenshot" href="README_+_SCREENSHOT/homework-1-code-refractor-screenshot-TEW.png">
 
 
 ======
 ## Credits
 
-These are the web articles I referenced during this Code Refactor excercise. 
+These are the web articles referenced during this Code Refactor accessibility excercise. 
 
 https://www.codecademy.com/learn/learn-html/modules/learn-semantic-html/cheatsheet
 https://www.w3schools.com/tags/tag_hn.asp
 https://www.w3schools.com/html/html_accessibility.asp
+https://contrastchecker.com/
+https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag
 
 
 ## License
